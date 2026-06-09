@@ -19,7 +19,7 @@ references/
 ```
 
 The repository root is the actual Codex skill directory. The skill invocation
-name is `codex-second-brain-memory`.
+name is `codex-second-brain`.
 
 ## 中文介绍
 
@@ -57,13 +57,13 @@ workflow.
 After installing the skill, run this in the target project:
 
 ```text
-Use $codex-second-brain-memory to build a file-based second brain for this project. First inspect the existing structure, reuse any existing project rules or memory files, avoid overwriting files, and then tell me what you created or changed and what still needs my confirmation.
+Use $codex-second-brain to build a file-based second brain for this project. First inspect the existing structure, reuse any existing project rules or memory files, avoid overwriting files, and then tell me what you created or changed and what still needs my confirmation.
 ```
 
 For Chinese users:
 
 ```text
-请使用 codex-second-brain-memory，在当前项目里为我构建一套文件化第二大脑。先检查现有项目结构，不要覆盖已有文件；把项目规则、用户偏好、核心观点、已确认决策、可复用工作流、资料卡片、候选记忆和冲突更新分别放到正确文件里。完成后告诉我新增或修改了哪些文件，以及哪些候选记忆需要我确认。
+请使用 codex-second-brain，在当前项目里为我构建一套文件化第二大脑。先检查现有项目结构，不要覆盖已有文件；把项目规则、用户偏好、核心观点、已确认决策、可复用工作流、资料卡片、候选记忆和冲突更新分别放到正确文件里。完成后告诉我新增或修改了哪些文件，以及哪些候选记忆需要我确认。
 ```
 
 ## Installation

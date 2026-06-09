@@ -1,5 +1,5 @@
 ---
-name: codex-second-brain-memory
+name: codex-second-brain
 description: Build and maintain a file-based second brain for a Codex project by organizing project rules, user preferences, core viewpoints, decisions, workflows, source notes, candidate memories, and conflicts into separate Markdown files with a short entry index.
 metadata:
   short-description: Build a project memory system for Codex

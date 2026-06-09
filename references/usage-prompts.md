@@ -6,7 +6,7 @@ workflow.
 ## Initial Setup
 
 ```text
-Use $codex-second-brain-memory to build a file-based second brain for this project.
+Use $codex-second-brain to build a file-based second brain for this project.
 
 First inspect the existing structure. Reuse any existing AGENTS.md, README.md,
 skills/, project-knowledge/, codex-brain/, or similar memory files. Do not create
@@ -26,7 +26,7 @@ confirmation.
 ## Chinese Initial Setup
 
 ```text
-请使用 codex-second-brain-memory，在当前项目里为我构建一套文件化第二大脑。
+请使用 codex-second-brain，在当前项目里为我构建一套文件化第二大脑。
 
 先检查现有项目结构，复用已有的 AGENTS.md、README.md、skills/、project-knowledge/、codex-brain/ 或类似记忆文件，不要重复创建一套平行系统。
 
@@ -52,5 +52,5 @@ Please do a second-brain closing sweep: decide whether anything from this task s
 ## Source Reading
 
 ```text
-Use $codex-second-brain-memory to read and internalize this source. Create a source card if the content is readable. Separate what the source says, Codex's structured understanding, project use, candidate memories, and points that should not be internalized.
+Use $codex-second-brain to read and internalize this source. Create a source card if the content is readable. Separate what the source says, Codex's structured understanding, project use, candidate memories, and points that should not be internalized.
 ```
