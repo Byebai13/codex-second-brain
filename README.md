@@ -16,14 +16,10 @@ skill/
   SKILL.md
   agents/openai.yaml
   references/
-docs/
-  xhs-introduction.md
 ```
 
 Use `skill/` as the actual Codex skill directory. The skill invocation name is
-`codex-second-brain-memory`. The root README is for GitHub. The
-`docs/xhs-introduction.md` file is a social-post draft, not the canonical GitHub
-introduction.
+`codex-second-brain-memory`.
 
 ## What It Does
 
@@ -79,7 +75,6 @@ If your installer expects the skill at repository root, copy the contents of
 - `skill/references/reading-workflow.md`: article, note, and book internalization workflow.
 - `skill/references/safety-boundaries.md`: privacy and confirmation boundaries.
 - `skill/references/usage-prompts.md`: copyable setup and daily-use prompts.
-- `docs/xhs-introduction.md`: Chinese social-post draft for RedSkill/Xiaohongshu publishing.
 
 ## License
 
