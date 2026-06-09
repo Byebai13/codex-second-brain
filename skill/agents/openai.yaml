@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex Second Brain"
+  short_description: "Build a project memory system for Codex"
+  default_prompt: "Use $codex-second-brain-memory to build a file-based second brain for this project."
+
+policy:
+  allow_implicit_invocation: true

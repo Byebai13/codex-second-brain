@@ -1,0 +1,14 @@
+.DS_Store
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+!.env.example
+data/
+runtime/
+logs/
+node_modules/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
