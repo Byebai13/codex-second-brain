@@ -1,6 +1,6 @@
 ---
 name: codex-second-brain-memory
-description: Build and maintain a file-based second brain for a Codex project by organizing project rules, user preferences, decisions, workflows, source notes, candidate memories, and conflicts into separate Markdown files with a short entry index.
+description: Build and maintain a file-based second brain for a Codex project by organizing project rules, user preferences, core viewpoints, decisions, workflows, source notes, candidate memories, and conflicts into separate Markdown files with a short entry index.
 metadata:
   short-description: Build a project memory system for Codex
 ---
@@ -30,7 +30,8 @@ complete `codex-brain/` only when the project has no suitable memory area.
 Load only the references needed for the task:
 
 - `references/memory-layers.md`: read when creating or auditing the memory file structure.
-- `references/memory-promotion.md`: read when turning conversation material into durable memory, preferences, decisions, or workflows.
+- `references/memory-promotion.md`: read when turning conversation material into durable memory, preferences, core viewpoints, decisions, or workflows.
+- `references/core-viewpoints.md`: read when stable viewpoints, principles, role memories, or user belief structures need a durable home.
 - `references/reading-workflow.md`: read when the user asks to read, study, digest, or internalize an article, link, note, transcript, or book excerpt.
 - `references/safety-boundaries.md`: read before writing memories that may include private, sensitive, unconfirmed, or externally sourced information.
 - `references/usage-prompts.md`: read when the user wants copyable setup, daily-use, or publishing prompts.
@@ -50,6 +51,7 @@ codex-brain/
   05-sources-and-notes.md
   06-memory-candidates.md
   07-conflicts-and-updates.md
+  08-core-viewpoints.md
   sources/
   sources/books/
 ```
@@ -62,10 +64,11 @@ Keep `INDEX.md` short. It is an entry index, not the memory body.
 2. Decide whether to reuse existing memory files or create `codex-brain/`.
 3. Classify information into the right layer instead of dumping it into one file.
 4. Write confirmed information to the correct durable file.
-5. Put uncertain information in `06-memory-candidates.md`.
-6. Put new-vs-old disagreements in `07-conflicts-and-updates.md`.
-7. Update `INDEX.md` with reading order and the current top context.
-8. Report created files, modified files, confirmed memories, candidates, and open questions.
+5. Put stable viewpoints, principles, and role memories in `08-core-viewpoints.md`.
+6. Put uncertain information in `06-memory-candidates.md`.
+7. Put new-vs-old disagreements in `07-conflicts-and-updates.md`.
+8. Update `INDEX.md` with reading order and the current top context.
+9. Report created files, modified files, confirmed memories, candidates, and open questions.
 
 ## Output Contract
 
@@ -74,6 +77,7 @@ At the end of a memory-building or memory-updating task, report:
 - files created
 - files modified
 - confirmed memories written
+- core viewpoints written
 - candidate memories awaiting user confirmation
 - conflicts or questions that need resolution
 

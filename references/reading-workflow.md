@@ -60,6 +60,8 @@ Use:
 
 ## Candidate Memories
 
+## Possible Core Viewpoints
+
 ## Do Not Internalize
 ```
 
@@ -71,10 +73,12 @@ Separate these layers:
 - Codex's structured understanding
 - what matters for the current project
 - what may become candidate memory
+- what may become a core viewpoint after confirmation
 - what should not be adopted
 
 Do not turn source claims directly into user preferences, project rules, core
 viewpoints, or decisions.
 
 First write source notes. Then, if useful, add candidate memories. Promote only
-after user confirmation or clear project evidence.
+after user confirmation or clear project evidence. If a source repeatedly shapes
+the user's judgment, the confirmed result may move to `08-core-viewpoints.md`.

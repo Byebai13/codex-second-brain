@@ -8,7 +8,7 @@ without checking its status.
 ```text
 conversation detail
   -> candidate memory
-  -> stable preference or viewpoint
+  -> stable preference or core viewpoint
   -> confirmed decision or project rule
   -> reusable workflow
 ```
@@ -43,7 +43,27 @@ Examples:
 - stable writing or research preferences
 - recurring collaboration rules
 
-## Preference Or Viewpoint To Decision
+## Candidate To Core Viewpoint
+
+Promote to `08-core-viewpoints.md` when:
+
+- the user confirms a durable belief, principle, or judgment frame
+- the statement affects how future evidence should be interpreted
+- it is broader than a preference but not yet a specific decision
+- it shapes the assistant's role, tone, boundaries, or default reasoning
+
+Examples:
+
+- personal operating principles
+- project philosophy
+- repeated evaluation criteria
+- stable role definitions for Codex
+- important beliefs derived from multiple sources or conversations
+
+Do not use `08-core-viewpoints.md` as a place for attractive but unconfirmed
+ideas from books or articles.
+
+## Preference Or Core Viewpoint To Decision
 
 Promote to `03-decisions.md` when:
 
@@ -70,6 +90,7 @@ Do not create workflows for one-off tasks.
 Before closing a substantial task, check:
 
 - Did the user confirm a durable preference?
+- Did a candidate become a stable viewpoint or principle?
 - Was a decision made?
 - Did a reusable workflow succeed?
 - Did a source change future judgment?

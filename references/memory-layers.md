@@ -122,3 +122,30 @@ Suggested shape:
 - Confirmation needed:
 - Temporary handling:
 ```
+
+### `08-core-viewpoints.md`
+
+Stable viewpoints, principles, and role memories.
+
+Use for durable beliefs or judgment frames that are more specific than a user
+preference but not yet a concrete decision or workflow.
+
+Examples:
+
+- "When evaluating tools, prefer workflows that preserve user agency."
+- "For this project, treat source material as evidence, not as the user's view."
+- "The assistant's role in this project is an editor and memory maintainer, not a silent autocomplete."
+
+Suggested shape:
+
+```md
+## YYYY-MM-DD: Viewpoint Title
+
+- Viewpoint:
+- Evidence or source:
+- Applies when:
+- Does not apply when:
+- Related decisions or workflows:
+```
+
+Do not place unconfirmed beliefs here. Use `06-memory-candidates.md` first.
